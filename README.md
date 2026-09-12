@@ -12,6 +12,8 @@ Tailspin Toys is a crowdfunding platform for games with a developer theme. The p
 
 The database is migrated and seeded automatically before `dev`/`build` (via the `predev`/`prebuild` npm scripts) and is written to the gitignored `tailspin.db` file.
 
+The home page catalog can be narrowed by selecting one or more categories and one publisher. Filters are reflected in the URL, can be combined, and can be cleared with the **Clear filters** control.
+
 ## Coding standards
 
 The repository's coding standards are maintained in [`.github/instructions/`](.github/instructions/) and summarized in [`.github/copilot-instructions.md](.github/copilot-instructions.md). In particular:
